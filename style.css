@@ -51,24 +51,44 @@ nav {
   margin-bottom: 7rem;
   padding-left: 5%;
 }
+#wrapper{
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
 #sec1 {
   margin: 30px 0px;
+}
+#sec1 img{
+  width: 49%;
+  right: -80px;
+  height: auto;
+
+  position: absolute;
+  z-index: -1;
+
+}
+/* #wrapper{
+  width: 100vw;
+  overflow: hidden;
 }
 #sec1::before {
   background: url(./sitePics/herobg.jpg) no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
-  height: 35%;
-  left: 50%;
+  height: 207px;
+  overflow: hidden;
+  right: 0.009px;
+  top: 0.009px;
   z-index: -1;
-}
+} */
 #sec1 p {
   font-size: 25px;
   margin: 20px 0px;
   line-height: 32px;
   display: block;
-  color: rgb(110 110 110);
+  color: black;
   width: 67%;
 }
 /* #sec1 #center {
@@ -98,6 +118,7 @@ nav {
 }
 .card-section {
   margin: 5rem 0px;
+  position: relative;
 }
 .card-section img {
   background-size: cover;
@@ -106,16 +127,19 @@ nav {
   height: auto;
 }
 .inner_div1 {
-  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
+  margin-top: -40px; */
 }
 .inner_div2 {
   padding: 11px 10px;
   border-radius: 5px;
   background-color: white;
-  width: 87%;
+  width: 90vw;
 }
 
 .inner_div2 .p1 {
@@ -123,10 +147,10 @@ nav {
 }
 .inner_div2 .spann {
   display: block;
-  height: 20px;
+  height: 10px;
 }
 .inner_div2 .p2 {
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(155 152 152);
 }
 
@@ -440,10 +464,16 @@ footer hr {
     line-height: 44px;
     font-size: 32px;
   }
+  .inner_div1{
+    top: 19%;
+  }
+  .inner_div2{
+    width: 60vw;
+  }
   #sec1::before {
-    width: 100%;
-    height: 41%;
-    left: 50%;
+    width: 50vw;
+    height: 61%;
+    /* left: 50%; */
   }
   #sec1 input {
     padding: 25px 11px;
@@ -454,9 +484,16 @@ footer hr {
 }
 @media screen and (min-width: 634px) {
   #sec1::before {
-    width: 100%;
-    height: 35%;
-    left: 50%;
+    width: 50vw;
+    height: 50%;
+    right: 0.009px;
+    /* left: 50%; */
+  }
+  .inner_div1{
+    top: 31%;
+  }
+  .inner_div2{
+    width: 50vw;
   }
 }
 @media screen and (min-width: 657px) {
@@ -464,10 +501,10 @@ footer hr {
     width: 42%;
   }
   .inner_div2 {
-    padding: 14px 4px;
+    padding: 14px 8px;
   }
   .inner_div2 .p2 {
-    margin: 16px 0px;
+    margin: 3px 0px;
   }
   #info h2 {
     font-size: 35px;
@@ -497,29 +534,20 @@ footer hr {
     padding: 24px 40px;
     /* margin: 0px 14px; */
   }
-  .inner_div1 {
-    position: relative;
-    top: 0px;
-    left: 0px;
-  }
-  .inner_div2 {
-    width: 44%;
+  
+  .inner_div3 {
+    width: 62%;
     padding: 16px 5px;
     position: absolute;
     left: 60px;
     top: -286px;
   }
   .inner_div2 .p1 {
-    font-size: 27px;
+    font-size: 23px;
   }
   .inner_div2 .p2 {
     font-size: 17px;
   }
-  .inner_div2 .spann {
-    display: none;
-  }
-  /* .card-section img {
-  } */
   .outer-lines {
     display: block;
   }
@@ -545,28 +573,22 @@ footer hr {
     font-size: 24px;
   }
   .inner_div2 {
-    padding: 11px 4px;
+    padding: 11px 10px;
     top: -93px;
   }
   #info {
     margin-top: 20%;
   }
-  .adjust-top {
-    top: -265px;
-  }
+ 
 }
-/* @media screen and (min-width: 657px){
-  .adjust-top{
-    top:-230px;
-  }
-} */
+
 @media screen and (min-width: 1264px) {
   #sec1 p {
   padding: 30px 0px;
   }
   #sec1::before{
     width: 100%;
-    height: 35%;
+    height: 48%;
     left: 50%;
   }
   #first-nav {
@@ -588,9 +610,7 @@ footer hr {
   .small_logo1 {
     margin-left: 7px;
   }
-  .adjust-top {
-    top: -200px;
-  }
+ 
   #image_gallery {
     flex-wrap: wrap;
     align-items: center;
