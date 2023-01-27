@@ -55,7 +55,7 @@ nav {
   margin: 30px 0px;
 }
 #sec1::before {
-  background: url(/sitePics/herobg.jpg) no-repeat center center/cover;
+  background: url(./sitePics/herobg.jpg) no-repeat center center/cover;
   content: "";
   position: absolute;
   width: 100%;
@@ -150,82 +150,82 @@ nav {
   height: 220px;
 }
 .global1 {
-  background: url("/sitePics/city-tile-Sahiwal.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Sahiwal.jpg") no-repeat center
     center/cover;
 }
 .global2 {
-  background: url("/sitePics/city-tile-Abottabad.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Abottabad.jpg") no-repeat center
     center/cover;
 }
 .global3 {
-  background: url("/sitePics/city-tile-Bahawalpur.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Bahawalpur.jpg") no-repeat center
     center/cover;
 }
 .global4 {
-  background: url("/sitePics/city-tile-DeraGhaziKhan.jpg") no-repeat center
+  background: url("./sitePics/city-tile-DeraGhaziKhan.jpg") no-repeat center
     center/cover;
 }
 .global5 {
-  background: url("/sitePics/city-tile-Gujranwala.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Gujranwala.jpg") no-repeat center
     center/cover;
 }
 .global6 {
-  background: url("/sitePics/city-tile-Gujrat.jpg.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Gujrat.jpg.jpg") no-repeat center
     center/cover;
 }
 .global7 {
-  background: url("/sitePics/city-tile-Jhelum.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Jhelum.jpg") no-repeat center
     center/cover;
 }
 .global8 {
-  background: url("/sitePics/city-tile-Kamoke.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Kamoke.jpg") no-repeat center
     center/cover;
 }
 .global9 {
-  background: url("/sitePics/city-tile-Larkana.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Larkana.jpg") no-repeat center
     center/cover;
 }
 .global10 {
-  background: url("/sitePics/city-tile-WahhCannt.jpg") no-repeat center
+  background: url("./sitePics/city-tile-WahhCannt.jpg") no-repeat center
     center/cover;
 }
 .global11 {
-  background: url("/sitePics/city-tile-Mangla.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Mangla.jpg") no-repeat center
     center/cover;
 }
 .global12 {
-  background: url("/sitePics/city-tile-Mardan.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Mardan.jpg") no-repeat center
     center/cover;
 }
 .global13 {
-  background: url("/sitePics/city-tile-Murree.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Murree.jpg") no-repeat center
     center/cover;
 }
 .global14 {
-  background: url("/sitePics/city-tile-Okara.jpg") no-repeat center center/cover;
+  background: url("./sitePics/city-tile-Okara.jpg") no-repeat center center/cover;
 }
 .global15 {
-  background: url("/sitePics/city-tile-PanoAqil.jpg") no-repeat center
+  background: url("./sitePics/city-tile-PanoAqil.jpg") no-repeat center
     center/cover;
 }
 .global16 {
-  background: url("/sitePics/city-tile-Quetta.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Quetta.jpg") no-repeat center
     center/cover;
 }
 .global17 {
-  background: url("/sitePics/city-tile-RahimYarKhan.jpg") no-repeat center
+  background: url("./sitePics/city-tile-RahimYarKhan.jpg") no-repeat center
     center/cover;
 }
 .global18 {
-  background: url("/sitePics/city-tile-Sadiqabad.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Sadiqabad.jpg") no-repeat center
     center/cover;
 }
 .global19 {
-  background: url("/sitePics/city-tile-Sargodha.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Sargodha.jpg") no-repeat center
     center/cover;
 }
 .global20 {
-  background: url("/sitePics/city-tile-Sheikhupura.jpg.jpg") no-repeat center
+  background: url("./sitePics/city-tile-Sheikhupura.jpg.jpg") no-repeat center
     center/cover;
 }
 .card1::before {
