@@ -150,15 +150,15 @@ nav {
   height: 220px;
 }
 .global1 {
-  background: url("./sitePics/city-tile-Sahiwal.jpg") no-repeat center
+  background: url("sitePics/city-tile-Sahiwal.jpg") no-repeat center
     center/cover;
 }
 .global2 {
-  background: url("./sitePics/city-tile-Abottabad.jpg") no-repeat center
+  background: url("sitePics/city-tile-Abottabad.jpg") no-repeat center
     center/cover;
 }
 .global3 {
-  background: url("./sitePics/city-tile-Bahawalpur.jpg") no-repeat center
+  background: url("sitePics/city-tile-Bahawalpur.jpg") no-repeat center
     center/cover;
 }
 .global4 {
